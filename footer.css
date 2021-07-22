@@ -1,0 +1,32 @@
+
+.footer{
+    display: flex;
+    padding: 3rem;
+    background-color: white;
+    border-top:4px solid #ccc;
+    justify-content: center;
+}
+
+.footer a{
+    text-decoration: none;
+    transition: 0.7s;
+    letter-spacing: 4px;
+}
+
+.footer ul{
+    list-style-type: none;
+    display: flex;
+
+}
+.footer ul li{
+    padding: 1.5rem;
+}
+.footer a:hover{
+    color: black;
+    border-top: 2px solid black;
+}
+
+.footer-h2{
+    text-align: center;
+    color: blue;
+}

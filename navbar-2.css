@@ -1,0 +1,41 @@
+ .navbar-2{
+     display: flex;
+     justify-content: center;
+     border-bottom: 1px solid #ccc;
+     height: 75px;
+     align-items: center;
+    }
+
+ .navbar-2 img{
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+
+
+ }
+
+ .navbar-2 a{
+     text-decoration: none;
+     font-size: larger;
+     letter-spacing: 2px;
+     transition: 0.7s;
+     color: white;
+ }
+
+
+ .navbar-2 .element{
+     background-color: orange;
+     padding: 11px;
+     margin: 0 5px;
+     display: flex;
+     align-items: center;
+     border-radius: 6px;
+     transition: 0.4s;
+
+ }
+
+ .navbar-2 .element:hover{
+     transform: scale(1.2);
+     z-index: 1; /*donmaları önlemek için kullanılır  */
+     border: 2px solid #ccc;
+ }

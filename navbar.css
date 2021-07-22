@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*taşma olmasın diye */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.linkler{
+    display: flex;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a{
+    font-size: large;
+    font-weight: bolder;
+    padding: 8px;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+    background-color: red;
+    color: yellow;
+}

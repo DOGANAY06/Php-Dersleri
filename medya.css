@@ -1,0 +1,23 @@
+
+.medya{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+video{
+    width: 20rem;
+    margin: 2px;
+    padding: 2px;
+}
+
+.medya-h2{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid #ccc;
+}
+
+
+body{
+    background-image: url(white-wallpaper-18.png);
+}
